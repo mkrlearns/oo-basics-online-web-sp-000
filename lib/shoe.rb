@@ -7,7 +7,7 @@ class Shoe
   end
  
   def cobble
-    :condition = "new"
+    @condition = "new"
     puts "The shoes has been repaired!"
   end
  
